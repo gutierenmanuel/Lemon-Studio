@@ -1,15 +1,11 @@
-/target
-/target-*/
-target-dev/
+# Volcados y analisis del banco de pruebas de audiodaw_lab, que viven en
+# audiodaw_lab/ y no en este repo.
+/audiodaw_lab/
 
-# Project files and audio never belong in the repo
-*.flp
-*.wav
+# Compilacion
+/target/
+**/target/
 
-# Local notes and secrets
-.env
-CLAUDE.md
-.claude/
-
-# macOS Finder metadata
-.DS_Store
+# Editores
+.idea/
+*.swp
